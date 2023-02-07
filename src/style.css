@@ -19,11 +19,14 @@ ul {
     font-size: 12px;
     margin: 0;
     padding: 0;
+    
 }
 li{
     margin: 0;
     padding: 0; 
-    text-transform: capitalize; 
+    }
+li:firstletter{
+text-transform: uppercase;
 }
 footer{
     font-size: 12px;
@@ -49,4 +52,7 @@ display: inline-block;
     line-height: 24px;
     position: relative;
     top: -20px;
+}
+.description::first-letter{
+text-transform: uppercase;
 }
