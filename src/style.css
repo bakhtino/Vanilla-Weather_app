@@ -1,69 +1,67 @@
-body{
-    font-family: arial,sans-serif;
+body {
+  font-family: arial, sans-serif;
 }
-.weather-app{
-    max-width: 410px;
-    margin: 0 auto;
-    margin-top: 30px;
-    padding: 20px;
-    border: 1px solid  #dadde1;
-    border-radius: 5px;
+.weather-app {
+  max-width: 410px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
 }
-h1{
-    color: #202124;
-    font-size: 28px;
-    font-weight: 100px;
-    margin-bottom: 0;
+h1 {
+  color: #202124;
+  font-size: 28px;
+  font-weight: 100px;
+  margin-bottom: 0;
 }
 ul {
-    list-style: none;
-    color: #70757a;
-    font-size: 12px;
-    margin: 0;
-    padding: 0;
-    
+  list-style: none;
+  color: #70757a;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
 }
-li{
-    margin: 0;
-    padding: 0; 
-    }
-li:firstletter{
-text-transform: uppercase;
+li {
+  margin: 0;
+  padding: 0;
 }
-footer{
-    font-size: 12px;
-    text-align:center;
+li:firstletter {
+  text-transform: uppercase;
 }
-.weather-temperature img{
-margin-right: 10px;
-display: inline-block;
-    height: 60px;
-    margin-top: unset;
-    vertical-align: top;
-    width: 60px;
-
+footer {
+  font-size: 12px;
+  text-align: center;
 }
-.weather-temperature strong{
-    font-size: 44px;
-    font-weight: 400;
-    color: #202124;
-    line-height: 1;
+.weather-temperature img {
+  margin-right: 10px;
+  display: inline-block;
+  height: 60px;
+  margin-top: unset;
+  vertical-align: top;
+  width: 60px;
 }
-.weather-temperature .units{
-    font-size: 16px;
-    line-height: 24px;
-    position: relative;
-    top: -20px;
+.weather-temperature strong {
+  font-size: 44px;
+  font-weight: 400;
+  color: #202124;
+  line-height: 1;
 }
-.description:first-letter{
-text-transform: uppercase;
+.weather-temperature .units {
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+  top: -20px;
 }
-.weather-temperature .active{
- color: #202124;   
- cursor: default;
- text-decoration: none;
+.description:first-letter {
+  text-transform: uppercase;
 }
-.fahrenheit-link{
-    color: #202124;   
-    text-decoration: none;
+.weather-temperature .active {
+  color: #202124;
+  cursor: default;
+  text-decoration: none;
+}
+.fahrenheit-link {
+  color: #202124;
+  text-decoration: none;
 }
